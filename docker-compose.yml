@@ -1,0 +1,9 @@
+services:
+  caresync:
+    build: .
+    ports: ["8000:8000"]
+    env_file: backend/.env
+    volumes: ["caresync-data:/data"]
+    restart: unless-stopped
+volumes:
+  caresync-data:

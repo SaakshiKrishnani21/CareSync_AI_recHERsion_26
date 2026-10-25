@@ -1,0 +1,46 @@
+[
+ {"id":"chest","label":"Chest pain or pressure","level":"emergency","terms":{
+  "en":["chest pain","chest tightness","pressure in chest","pain in chest","crushing pain"],
+  "hi":["सीने में दर्द","छाती में दर्द","सीने में जकड़न","seene mein dard","chhati mein dard"],
+  "mr":["छातीत दुखत","छातीत दुखणे","छातीत वेदना","chhatit dukh"]}},
+ {"id":"breath","label":"Breathing difficulty","level":"emergency","terms":{
+  "en":["can't breathe","cannot breathe","difficulty breathing","short of breath","shortness of breath","gasping","struggling to breathe"],
+  "hi":["सांस लेने में तकलीफ","सांस नहीं आ","सांस फूल","साँस लेने में","saans lene mein"],
+  "mr":["श्वास घेण्यास त्रास","दम लागतो","श्वास घेता येत नाही"]}},
+ {"id":"stroke","label":"Possible stroke (FAST signs)","level":"emergency","terms":{
+  "en":["face drooping","slurred speech","can't speak","one side weak","sudden weakness","sudden numbness","sudden vision loss"],
+  "hi":["चेहरा टेढ़ा","बोलने में दिक्कत","अचानक कमजोरी","लकवा"],
+  "mr":["चेहरा वाकडा","बोलण्यास त्रास","अचानक अशक्तपणा","लकवा"]}},
+ {"id":"collapse","label":"Fainting, seizure or unresponsive","level":"emergency","terms":{
+  "en":["fainted","unconscious","not responding","seizure","convulsion"],
+  "hi":["बेहोश","दौरा","मिर्गी"],
+  "mr":["बेशुद्ध","झटके"]}},
+ {"id":"allergy","label":"Severe allergic reaction","level":"emergency","terms":{
+  "en":["throat swelling","swollen tongue","anaphylaxis","swelling of lips","throat closing"]}},
+ {"id":"gi_bleed","label":"Vomiting or coughing blood","level":"emergency","terms":{
+  "en":["vomiting blood","coughing blood","blood vomit"],
+  "hi":["खून की उल्टी","खून की खांसी"],
+  "mr":["रक्ताची उलटी"]}},
+ {"id":"selfharm","label":"Thoughts of self-harm","level":"emergency","terms":{
+  "en":["suicid","want to die","kill myself","end my life"],
+  "hi":["आत्महत्या","मरना चाहता","मरना चाहती"],
+  "mr":["आत्महत्या","मरावेसे वाटते"]}},
+ {"id":"preg_bleed","label":"Pregnancy: bleeding or fluid leaking","level":"emergency","pregnant_only":true,"terms":{
+  "en":["bleeding","spotting","fluid leaking","water broke"],
+  "hi":["खून","रक्तस्राव","ब्लीडिंग"],
+  "mr":["रक्तस्राव","रक्त पडत","ब्लीडिंग"]}},
+ {"id":"preg_move","label":"Pregnancy: reduced baby movement","level":"emergency","pregnant_only":true,"terms":{
+  "en":["baby not moving","reduced movement","less movement","not feeling baby"],
+  "hi":["बच्चा हिल नहीं","बच्चे की हरकत","बच्चा कम हिल"],
+  "mr":["बाळ हलत नाही","बाळाची हालचाल"]}},
+ {"id":"preeclampsia","label":"Pregnancy: possible pre-eclampsia signs","level":"urgent","pregnant_only":true,"terms":{
+  "en":["severe headache","blurred vision","swelling face","swelling hands","pain under ribs"],
+  "hi":["तेज सिरदर्द","धुंधला दिखाई","चेहरे पर सूजन"],
+  "mr":["तीव्र डोकेदुखी","अंधुक दिसत","चेहऱ्यावर सूज"]}},
+ {"id":"meningitis","label":"High fever with stiff neck","level":"urgent","terms":{
+  "en":["stiff neck","fever above 104","very high fever"],
+  "hi":["गर्दन अकड़"],"mr":["मान अकडली"]}},
+ {"id":"abdomen","label":"Severe abdominal pain","level":"urgent","terms":{
+  "en":["severe abdominal pain","severe stomach pain","blood in stool"],
+  "hi":["पेट में तेज दर्द"],"mr":["पोटात तीव्र दुखत"]}}
+]
